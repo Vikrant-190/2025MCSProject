@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1747901132 1747901134
+lvs_ExtOutFile RUNDIR /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/pex
+lvs_ExtOutFile RULES_FILE _rcxControl_calibre_asap7.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/test_inv1.sp
+lvs_ExtOutFile EXTRACTION_REPORT test_inv1.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/test_inv1.pdsp }

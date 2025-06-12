@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1749627612 1749627613
+lvs_ExtOutFile RUNDIR /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/test_inv3
+lvs_ExtOutFile RULES_FILE /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/test_inv3/_lvsRules_calibre_asap7.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/test_inv3.sp
+lvs_ExtOutFile EXTRACTION_REPORT test_inv3.lvs.report.ext

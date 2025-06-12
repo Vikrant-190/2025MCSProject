@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Thu Jun 12 09:37:09 2025 " "v2019.2_26.18" "-xrc -pdb -rcc -turbo 1 /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram4_b/_rcxControl_calibre_asap7_170801.rul_"
+"Thu Jun 12 09:37:13 2025 " "v2019.2_26.18" "-xrc -fmt -all /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram4_b/_rcxControl_calibre_asap7_170801.rul_"

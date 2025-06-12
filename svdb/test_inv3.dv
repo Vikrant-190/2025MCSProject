@@ -1,0 +1,26 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/test_inv3.dv
+dv_start unmatched                                
+dv_cell {test_inv3} {test_inv3} unmatched
+dv_obj_count -transformed_nets {4 6} -transformed_inst {2 2} -transformed_port {4 4}
+dv_discrep 1 {Incorrect Nets} -inst_count { 3 3}
+dv_discrep_line {Net } -lnet {VSS} {                                                   } -snet {VSS} {}
+dv_discrep_line {                                                          } -snet {net1} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 3 Connections On This Net ---}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 3 3}
+dv_discrep_line {Net } -lnet {VDD} {                                                   } -snet {VDD} {}
+dv_discrep_line {                                                          } -snet {net2} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 3 Connections On This Net ---}
+dv_discrep_line {}
+dv_discrep 3 {Property Errors}
+dv_discrep_line {} -ldev {M0} {} -lloc {(0.071,0.027)} {  MN(NMOS_RVT)                             } -sdev {MM0} {  MN(NMOS_RVT)}
+dv_discrep_line {}  {w} {: }  {0.081 u} {                                                }  {w} {: }  {0.027 u} {            }  {     0.054 u} {}
+dv_discrep_line {}  {nfin} {: }  {3 } {                                                  }  {nfin} {: }  {1 } {              }  {         2 } {}
+dv_discrep_line {}
+dv_discrep 4 {Property Errors}
+dv_discrep_line {} -ldev {M1} {} -lloc {(0.071,0.162)} {  MP(PMOS_RVT)                             } -sdev {MM1} {  MP(PMOS_RVT)}
+dv_discrep_line {}  {w} {: }  {0.081 u} {                                                }  {w} {: }  {0.027 u} {            }  {     0.054 u} {}
+dv_discrep_line {}  {nfin} {: }  {3 } {                                                  }  {nfin} {: }  {1 } {              }  {         2 } {}
+dv_discrep_line {}
+dv_end

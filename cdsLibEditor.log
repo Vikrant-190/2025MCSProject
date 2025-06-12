@@ -1,0 +1,15 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2022 00:16 (sjfdcl1109) $
+\o Sub version:		sub-version  s254 
+\o Arguments:		-display :14.0 -mpssession virtuoso102463 -mpshost ee25 -namespace CDBA -cdslib /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib 
+\o Working Directory:	ee25:/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(95 123 500 400))
+\a nrResizeWindow(cdsLibEditor list(489 218 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(494 220 500 400))
+\a exit(0)

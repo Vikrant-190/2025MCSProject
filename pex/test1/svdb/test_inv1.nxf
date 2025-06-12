@@ -1,0 +1,17 @@
+# SVDB: Net Cross Reference (nxf) (File format 1)
+# SVDB: Layout Primary test_inv1
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Thu May 22 14:56:54 2025
+# SVDB: GDSII -0 (none) (none)
+# SVDB: SNL -0 (none) (none)
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: End of header.
+% test_inv1 4 test_inv1 4
+18 A 4 A
+23 Y 23 Y
+4 VSS 16 VSS
+28 9 16 VSS
+11 VDD 9 VDD
+33 11 9 VDD

@@ -1,0 +1,10 @@
+read_lef svdb/pex.db/tech.lef
+read_library svdb/pex.db/typical.ptf.encrypt
+set_analysis_corner -corner typical_27 -process_technology ProcessName_typical -rc_temp 27 -enable true
+
+
+config_extract -extract_to_blockages true
+setenv EXTR_DEF_CELL_OBSTRUCTIONS 1
+config_extraction -use_interval_wires true
+
+write_pdb    -prefix_special_characters false -file test_inv4.pex.netlist -corner slow -coupling true -turbo 6 -hspice -name_map false -nospice

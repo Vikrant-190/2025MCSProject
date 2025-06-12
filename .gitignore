@@ -1,0 +1,76 @@
+# Cadence Virtuoso specific
+*.cdslck             # Cadence lock files
+*.oalib              # Library lock files
+*.oa                 # OpenAccess temp files
+*.log                # Log files
+*.sim*/              # Simulation directories
+*.adexl/             # ADE XL state files
+*.adexl.*
+*.psf/               # Simulation data files
+*.tr*/               # Transient analysis files
+*.ac*/               # AC analysis files
+*.dc*/               # DC analysis files
+*.sw*/               # Sweep files
+*.st*/               # State files
+*.ic*/               # Initial condition files
+*.ms*/               # Monte Carlo files
+*.pvadir/            # PVS directories
+*.str/               # Stream-out temp files
+*.cel/               # Cellview temp files
+*.dat                # Simulation data files
+*.raw                # Raw simulation data
+*.tcl                # Temporary TCL scripts
+*.cdsinit.local      # Local init files
+*.cdsenv             # Environment files
+*.cdsplotinit        # Plot init files
+
+# HSPICE specific
+*.st0                # HSPICE status files
+*.ic0                # Initial condition files
+*.sp                 # Compiled netlists
+*.lis                # Listing files
+*.val                # Validation files
+*.mt0                # Measurement files
+*.pa*                # Parameter analysis
+*.tr*                # Transient analysis output
+*.sw*                # Sweep output
+*.ac*                # AC analysis output
+*.dc*                # DC analysis output
+*.nodeset            # Node setting files
+*.measure            # Measurement output
+*.err                # Error files
+*.out                # Output files
+*.stat               # Statistics files
+
+# Layout related
+*.gds                # GDSII files (unless they're your source)
+*.oas                # OASIS files
+*.lef                # LEF files (unless source)
+*.def                # DEF files (unless source)
+*.dxf                # DXF files
+
+# DRC/LVS/PEX outputs
+*.drc                # DRC report files
+*.lvs                # LVS report files
+*.pex                # PEX output files
+*.rpt                # General report files
+*.results/           # Verification results
+*.svdb/              # Calibre verification databases
+
+# Version control systems
+*.svn/
+*.git/
+
+# OS generated
+.DS_Store
+Thumbs.db
+._*
+
+# IDE specific
+*.vscode/
+*.idea/
+
+# Backup files
+*~
+*.bak
+*.backup

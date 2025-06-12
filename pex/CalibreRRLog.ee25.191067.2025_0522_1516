@@ -1,0 +1,2 @@
+MTFLEX(0) <T 1 C 0 P 0 R 0> : startup_threads() : system_query thread created
+MTFLEX(0) <T 1 C 0 P 0 R 0> : system_query() : START loop_interval = 60 monitor_print_interval = 0

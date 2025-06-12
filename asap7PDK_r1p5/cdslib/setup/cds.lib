@@ -1,0 +1,21 @@
+SOFTINCLUDE $CDS/share/cdssetup/cds.lib
+
+SOFTINCLUDE /RAID2/cad/cadence/IC/IC_06.18.250/share/cdssetup/cds.lib
+
+DEFINE sample  $CDS/tools/dfII/samples/cdslib/sample
+
+
+
+#-----------------------
+# ASAP7 TechLibrary:
+#-----------------------
+DEFINE asap7_TechLib_08 $PDK_DIR/cdslib/asap7_TechLib_08
+
+#------------------------------
+# Sample Standard Cell Library: 
+#------------------------------
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+
+#-----------------------
+# User Libraries: 
+#-----------------------

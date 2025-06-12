@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: test_inv4
+* View Name:     schematic
+* Netlisted on:  Jun  2 17:34:55 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    test_inv4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT test_inv4 A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MM0 Y A VDD VDD pmos_rvt w=27n l=20n nfin=1
+MM1 Y A VSS VSS nmos_rvt w=27n l=20n nfin=1
+.ENDS
+

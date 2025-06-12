@@ -1,0 +1,326 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         sram_1.lvs.report
+LAYOUT NAME:              svdb/sram_1.sp ('sram_1')
+SOURCE NAME:              /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_1/sram_1.src.net ('sram_1')
+RULE FILE:                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_1/_lvsRules_calibre_asap7.rul_
+RULE FILE TITLE:          LVS Rule File for ASAP7 PDK
+CREATION TIME:            Wed Jun 11 12:24:49 2025
+CURRENT DIRECTORY:        /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_1
+USER NAME:                es25MCS027
+CALIBRE VERSION:          v2019.2_26.18    Tue May 7 10:57:04 PDT 2019
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      sram_1                        sram_1
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "vdd!" "VDD!" "vdd" "VDD"
+   LVS GROUND NAME                        "VSS" "VSS!" "GND" "GND!"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     ALL
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES SEMI ALSO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  nfin nfin 0 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+
+LAYOUT CELL NAME:         sram_1
+SOURCE CELL NAME:         sram_1
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:              11         7    *
+
+ Instances:          4         4         MN (4 pins)
+                     2         2         MP (4 pins)
+                ------    ------
+ Total Inst:         6         6
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:              11         5    *
+
+ Instances:          2         0    *    MN (4 pins)
+                     0         1    *    _bitv (5 pins)
+                     2         0    *    _invb (6 pins)
+                ------    ------
+ Total Inst:         4         1
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 6                                                     ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 12                                                    ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 7                                                     ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 8                                                     ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 9                                                     ** missing net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net 13                                                    ** missing net **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  7    M0(1.109,0.393)  MN(NMOS_SRAM)                            ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    M3(1.163,0.636)  MN(NMOS_SRAM)                            ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    (_invb)                                                   ** missing injected instance **
+
+       Devices: 
+         M5(1.163,0.501)  MP(PMOS_SRAM)
+         M2(1.163,0.393)  MN(NMOS_SRAM)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    (_invb)                                                   ** missing injected instance **
+
+       Devices: 
+         M4(1.109,0.555)  MP(PMOS_SRAM)
+         M1(1.109,0.636)  MN(NMOS_SRAM)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    ** missing injected instance **                           (_bitv)
+
+                                                                 Devices: 
+                                                                   MM4  MP(PMOS_SRAM)
+                                                                   MM1  MN(NMOS_SRAM)
+                                                                   MM5  MP(PMOS_SRAM)
+                                                                   MM2  MN(NMOS_SRAM)
+                                                                   MM0  MN(NMOS_SRAM)
+                                                                   MM3  MN(NMOS_SRAM)
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               5          5            0            0
+
+   Nets:                5          5            6            0
+
+   Instances:           0          0            2            0    MN(NMOS_SRAM)
+                        0          0            0            1    _bitv
+                        0          0            2            0    _invb
+                  -------    -------    ---------    ---------
+   Total Inst:          0          0            4            1
+
+
+o Initial Correspondence Points:
+
+   Ports:        vdd VSS WL BL BLN
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

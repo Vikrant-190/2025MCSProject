@@ -1,0 +1,239 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 04/25/2022 00:14 (sjfdcl1109) $
+\o Sub version:		sub-version  s254 
+\o Arguments:		-mpssession virtuoso230436 -mpshost ee25 
+\o Working Directory:	ee25:/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(163 145 1364 665))
+\o changeWorkingDir("/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(164 146 1364 665))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/$CDS/tools/dfII/samples/cdslib/sample' does not exist
+\w 	but was defined in libFile '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/cds.lib' for Lib 'sample'.
+\a cdsLibManager->libListBox->value = "testLib"
+\a cdsLibManager->libLineEdit->value = "testLib"
+\a cdsLibManager->cellListBox->value = "sram_16b_1"
+\a cdsLibManager->cellLineEdit->value = "sram_16b_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

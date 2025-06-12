@@ -1,0 +1,5 @@
+mgc_rve_context_lcv "testLib" "sram_4" "layout" 4000
+mgc_rve_highlight_index 0 "9" "#FFFF0000FFFF"
+mgc_rve_layer "Gate_1"
+mr 1.839 0.891 1.859 1.144
+mgc_rve_zoom 1.83475 0.837 1.86325 1.198 1

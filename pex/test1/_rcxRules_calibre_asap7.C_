@@ -1,0 +1,26 @@
+//
+//  Rule file generated on Wed May 21 16:20:15 2025
+//  by Calibre Interactive v2019.2_26.18    Tue May 7 10:57:07 PDT 2019
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "test_inv1.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "test_inv1"
+
+SOURCE PATH "test_inv1.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "test_inv1"
+
+PEX NETLIST "test_inv1.pex.netlist" HSPICE SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XACT
+PEX XACT PDB YES
+
+LVS REPORT "test_inv1.lvs.report"
+
+DRC ICSTATION YES
+
+INCLUDE "/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/calibre/ruledirs/rcx/rcxRules_calibre_asap7.C"

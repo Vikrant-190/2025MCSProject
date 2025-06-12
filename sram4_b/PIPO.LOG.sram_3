@@ -1,0 +1,60 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 05/03/2022 19:59 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.25 
+Started at: 12-Jun-2025  07:51:35
+User Name : es25MCS027
+Host Name : ee25
+Directory : /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.layermap
+INFO (XSTRM-217): Reading the object map file, /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.objectmap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 testLib
+strmFile                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram4_b/sram_3.calibre.db
+topCell                                 sram_3
+view                                    layout
+runDir                                  /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram4_b/
+logFile                                 PIPO.LOG.sram_3
+summaryFile                             PIPO.SUM.sram_3
+layerMap                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.layermap
+objectMap                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.objectmap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellView testLib/sram_3/layout as STRUCTURE sram_3.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               1
+	Paths:                                  0
+	Rectangles:                             86
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   5
+	TextDisplay:                            0
+	Cells:                                  1
+
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2664KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

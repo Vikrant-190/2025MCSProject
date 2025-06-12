@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+testLib/test_inv3/schematic test_inv3
+$endmodel
+$net
+$endnet
+$param
+$endparam

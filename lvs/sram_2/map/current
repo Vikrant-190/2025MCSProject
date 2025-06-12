@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "sram_2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_2"
+ )
+( model
+( "testLib/sram_2/schematic" "sram_2" )
+ )
+( "sram_2" "ihnl/cds0/map" )
+ )

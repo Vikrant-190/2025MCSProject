@@ -1,0 +1,19 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_2
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 2 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName vdd!
+lvs_PowerName VDD!
+lvs_PowerName vdd
+lvs_PowerName VDD
+lvs_GroundName VSS
+lvs_GroundName VSS!
+lvs_GroundName GND
+lvs_GroundName GND!
+lvs_LvsOutFile LVS_REPORT sram_2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_2/sram_2.src.net
+lvs_LvsOutFile RULES_FILE /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/lvs/sram_2/_lvsRules_calibre_asap7.rul_
+lvs_LvsRunTimes 1749623463 1749623463
