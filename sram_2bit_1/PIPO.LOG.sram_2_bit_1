@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 05/03/2022 19:59 (cpgbld01) $
           : sub-version  IC6.1.8-64b.500.25 
-Started at: 12-Jun-2025  08:02:10
+Started at: 13-Jun-2025  00:06:37
 User Name : es25MCS027
 Host Name : ee25
 Directory : /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
@@ -36,7 +36,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               2
 	Paths:                                  0
-	Rectangles:                             117
+	Rectangles:                             123
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -52,9 +52,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   0
+	Text:                                   2
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2648KB
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2668KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

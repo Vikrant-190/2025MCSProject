@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 05/03/2022 19:59 (cpgbld01) $
           : sub-version  IC6.1.8-64b.500.25 
-Started at: 13-Jun-2025  00:20:02
+Started at: 13-Jun-2025  00:25:51
 User Name : es25MCS027
 Host Name : ee25
 Directory : /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
@@ -10,34 +10,36 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/tap_cell_sram/tap_cell_sram.calibre.db' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_16b_1/sram_16b_2.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.layermap
 INFO (XSTRM-217): Reading the object map file, /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.objectmap
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
 
 Summary of Options :
 library                                 testLib
-strmFile                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/tap_cell_sram/tap_cell_sram.calibre.db
-topCell                                 tap_cell_sram
+strmFile                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_16b_1/sram_16b_2.calibre.db
+topCell                                 sram_16b_2
 view                                    layout
-runDir                                  /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/tap_cell_sram/
-logFile                                 PIPO.LOG.tap_cell_sram
-summaryFile                             PIPO.SUM.tap_cell_sram
+runDir                                  /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_16b_1/
+logFile                                 PIPO.LOG.sram_16b_2
+summaryFile                             PIPO.SUM.sram_16b_2
 layerMap                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.layermap
 objectMap                                /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/asap7PDK_r1p5/cdslib/asap7_TechLib_08/asap7_TechLib_08.objectmap
 case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
-INFO (XSTRM-223): 1. Translating cellView testLib/tap_cell_sram/layout as STRUCTURE tap_cell_sram.
+INFO (XSTRM-223): 1. Translating cellView testLib/sram_2_bit_1/layout as STRUCTURE sram_2_bit_1.
+INFO (XSTRM-223): 2. Translating cellView testLib/tap_cell_sram/layout as STRUCTURE tap_cell_sram.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+INFO (XSTRM-223): 3. Translating cellView testLib/sram_16b_2/layout as STRUCTURE sram_16b_2.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
-	Array Instances:                        0
-	Polygons:                               0
+	Array Instances:                        2
+	Polygons:                               2
 	Paths:                                  0
-	Rectangles:                             48
+	Rectangles:                             171
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -53,9 +55,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   0
+	Text:                                   2
 	TextDisplay:                            0
-	Cells:                                  1
+	Cells:                                  3
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2656KB
+Elapsed Time: 0.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 2788KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

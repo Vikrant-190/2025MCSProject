@@ -3,21 +3,21 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Fri Jun 13 00:06:41 2025
+Execution Date/Time:       Fri Jun 13 00:25:53 2025
 Calibre Version:           v2019.2_26.18    Tue May 7 10:57:04 PDT 2019
-Rule File Pathname:        /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_2bit_1/_drcRules_calibre_asap7.rul_
+Rule File Pathname:        /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_16b_1/_drcRules_calibre_asap7.rul_
 Rule File Title:           
 Layout System:             GDS
-Layout Path(s):            sram_2_bit_1.calibre.db
-Layout Primary Cell:       sram_2_bit_1
-Current Directory:         /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_2bit_1
+Layout Path(s):            sram_16b_2.calibre.db
+Layout Primary Cell:       sram_16b_2
+Current Directory:         /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/sram_16b_1
 User Name:                 es25MCS027
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
-DRC Results Database:      sram_2_bit_1.drc.results (ASCII)
+DRC Results Database:      sram_16b_2.drc.results (ASCII)
 Layout Depth:              ALL
 Text Depth:                PRIMARY
-Summary Report File:       sram_2_bit_1.drc.summary (REPLACE)
+Summary Report File:       sram_16b_2.drc.summary (REPLACE)
 Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
                            NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Excluded Cells:           
@@ -30,32 +30,32 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER GCUT ...... TOTAL Original Geometry Count = 6  (6)
-LAYER GATE ...... TOTAL Original Geometry Count = 4  (4)
+LAYER GCUT ...... TOTAL Original Geometry Count = 8  (128)
+LAYER GATE ...... TOTAL Original Geometry Count = 6  (96)
 LAYER SRAMDRC ... TOTAL Original Geometry Count = 0  (0)
-LAYER ACTIVE .... TOTAL Original Geometry Count = 5  (5)
-LAYER WELL ...... TOTAL Original Geometry Count = 1  (1)
-LAYER FIN ....... TOTAL Original Geometry Count = 15 (15)
-LAYER NSELECT ... TOTAL Original Geometry Count = 2  (2)
-LAYER PSELECT ... TOTAL Original Geometry Count = 1  (1)
+LAYER ACTIVE .... TOTAL Original Geometry Count = 8  (128)
+LAYER WELL ...... TOTAL Original Geometry Count = 2  (32)
+LAYER FIN ....... TOTAL Original Geometry Count = 30 (480)
+LAYER NSELECT ... TOTAL Original Geometry Count = 3  (48)
+LAYER PSELECT ... TOTAL Original Geometry Count = 3  (48)
 LAYER SLVT ...... TOTAL Original Geometry Count = 0  (0)
 LAYER LVT ....... TOTAL Original Geometry Count = 0  (0)
-LAYER SRAMVT .... TOTAL Original Geometry Count = 1  (1)
+LAYER SRAMVT .... TOTAL Original Geometry Count = 1  (16)
 LAYER DUMMY ..... TOTAL Original Geometry Count = 0  (0)
-LAYER SDT ....... TOTAL Original Geometry Count = 13 (13)
-LAYER LISD ...... TOTAL Original Geometry Count = 13 (13)
-LAYER LIG ....... TOTAL Original Geometry Count = 8  (8)
-LAYER V0 ........ TOTAL Original Geometry Count = 13 (13)
-LAYER M1 ........ TOTAL Original Geometry Count = 12 (12)
+LAYER SDT ....... TOTAL Original Geometry Count = 16 (256)
+LAYER LISD ...... TOTAL Original Geometry Count = 16 (256)
+LAYER LIG ....... TOTAL Original Geometry Count = 8  (128)
+LAYER V0 ........ TOTAL Original Geometry Count = 16 (256)
+LAYER M1 ........ TOTAL Original Geometry Count = 15 (240)
 LAYER M4 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M5 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M6 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M7 ........ TOTAL Original Geometry Count = 0  (0)
-LAYER M2 ........ TOTAL Original Geometry Count = 9  (9)
-LAYER M3 ........ TOTAL Original Geometry Count = 3  (3)
+LAYER M2 ........ TOTAL Original Geometry Count = 12 (192)
+LAYER M3 ........ TOTAL Original Geometry Count = 4  (64)
 LAYER M8 ........ TOTAL Original Geometry Count = 0  (0)
-LAYER V1 ........ TOTAL Original Geometry Count = 12 (12)
-LAYER V2 ........ TOTAL Original Geometry Count = 6  (6)
+LAYER V1 ........ TOTAL Original Geometry Count = 15 (240)
+LAYER V2 ........ TOTAL Original Geometry Count = 8  (128)
 LAYER V3 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER V4 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER V5 ........ TOTAL Original Geometry Count = 0  (0)
@@ -110,7 +110,7 @@ RULECHECK SRAM.ACTIVE.A.2B ........... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.AUX.1 ............... TOTAL Result Count = 0 (0)
 RULECHECK SRAM.ACTIVE.AUX.2 .......... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.AUX.3 ............... TOTAL Result Count = 0 (0)
-RULECHECK ACTIVE.LUP.1 ............... TOTAL Result Count = 3 (3)
+RULECHECK ACTIVE.LUP.1 ............... TOTAL Result Count = 0 (0)
 RULECHECK GCUT.W.1 ................... TOTAL Result Count = 0 (0)
 RULECHECK GCUT.ACTIVE.S.1 ............ TOTAL Result Count = 0 (0)
 RULECHECK GCUT.GATE.EX.1 ............. TOTAL Result Count = 0 (0)
@@ -405,13 +405,11 @@ RULECHECK V9.AUX.1 ................... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL sram_2_bit_1 ............ TOTAL Result Count = 3 (3)
-    RULECHECK ACTIVE.LUP.1 ... TOTAL Result Count = 3 (3)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 124 (124)
+TOTAL Original Layer Geometries: 171 (2736)
 TOTAL DRC RuleChecks Executed:   334
-TOTAL DRC Results Generated:     3 (3)
+TOTAL DRC Results Generated:     0 (0)
