@@ -1,8 +1,0 @@
-CADENCE IHNL11140
-$model
-testLib/test_inv4/schematic test_inv4
-$endmodel
-$net
-$endnet
-$param
-$endparam

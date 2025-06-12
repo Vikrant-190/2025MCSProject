@@ -1,8 +1,0 @@
-CADENCE IHNL11140
-$model
-testLib/sram_4/schematic sram_4
-$endmodel
-$net
-$endnet
-$param
-$endparam

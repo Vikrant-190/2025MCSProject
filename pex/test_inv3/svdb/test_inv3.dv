@@ -1,4 +1,0 @@
-# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
-# FILE: svdb/test_inv3.dv
-dv_start notcompared                              
-dv_end

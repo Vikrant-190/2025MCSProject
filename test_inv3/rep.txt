@@ -1,8 +1,0 @@
-//Loading PDBs.
-//PDB loading of cell: TEST_INV3
-//Making the stats.
-GID                       totalC    totalCC    ratioCC     Cell    Layout   Source
-1                        1.45e-17   0.00e+00   0.00e+00    TEST_INV3  VSS   VSS  
-2                        1.49e-17   0.00e+00   0.00e+00    TEST_INV3  VDD   VDD  
-3                        2.17e-18   0.00e+00   0.00e+00    TEST_INV3  A     A  
-4                        6.19e-18   0.00e+00   0.00e+00    TEST_INV3  Y     Y  

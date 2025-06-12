@@ -1,3 +1,0 @@
-mgc_rve_context_lcv "testLib" "sram_1" "layout" 10000
-me 2 1.254 0.474 1.254 0.609 1.303 0.472 1.303 0.607
-mgc_rve_zoom 1.2435 0.4427 1.3135 0.6383 1
