@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 05/03/2022 19:59 (cpgbld01) $
           : sub-version  IC6.1.8-64b.500.25 
-Started at: 13-Jun-2025  13:06:38
+Started at: 13-Jun-2025  14:31:38
 User Name : es25MCS027
 Host Name : ee25
 Directory : /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
@@ -18,7 +18,7 @@ Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg 
 testLib/sram_16b_2/layout       0        1       0        0      0      0         34     0             0      0     0     0       0       
 testLib/sram_array_1/layout     0        2       0        0      0      0         162    0             0      0     0     0       0       
 testLib/tap_cell_sram/layout    0        0       0        50     0      0         0      0             0      0     0     0       0       
-testLib/sram_2_bit_1/layout     0        0       2        123    0      0         6      0             0      0     0     0       0       
+testLib/sram_2_bit_1/layout     0        0       2        122    0      0         6      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -45,13 +45,13 @@ BOUNDARY        drawing         100     0         0        2        0        0  
 well            drawing         1       0         0        2        0        0        0             0    0   0   0     0      0      
 Active          drawing         11      0         0        8        0        0        0             0    0   0   0     0      0      
 Nselect         drawing         12      0         0        3        0        0        0             0    0   0   0     0      0      
-M3              drawing         30      0         0        5        0        0        0             0    0   0   0     0      0      
+M3              drawing         30      0         0        4        0        0        0             0    0   0   0     0      0      
 fin             drawing         2       0         0        30       0        0        0             0    0   0   0     0      0      
 LISD            drawing         17      0         0        16       0        0        0             0    0   0   0     0      0      
 LIG             drawing         16      0         0        8        0        0        0             0    0   0   0     0      0      
-V2              drawing         25      0         0        9        0        0        0             0    0   0   0     0      0      
+V2              drawing         25      0         0        7        0        0        0             0    0   0   0     0      0      
 M2              drawing         20      0         0        12       0        0        0             0    0   0   0     0      0      
-Gate            drawing         7       0         0        6        0        0        0             0    0   0   0     0      0      
+Gate            drawing         7       0         0        8        0        0        0             0    0   0   0     0      0      
 M3              pin             30      251       0        0        0        134      0             0    0   0   0     0      0      
 GCut            drawing         10      0         0        8        0        0        0             0    0   0   0     0      0      
 V1              drawing         21      0         0        15       0        0        0             0    0   0   0     0      0      
@@ -63,7 +63,7 @@ Summary of Objects Translated:
 	Array Instances:		3
 	Polygons:			2
 	Paths:				0
-	Rectangles:			173
+	Rectangles:			172
 	Lines:				0
 	Arcs:				0
 	Donuts:				0

@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Fri Jun 13 12:38:11 2025 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/testLib/sram_2_bit_1/layout/layout.oa.cdslck
-TimeEditLocked                 Fri Jun 13 14:08:43 2025 CST
+FilePathUsedToEditLock         /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/testLib/sram_2_bit_1/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Jun 13 14:08:57 2025 CST
