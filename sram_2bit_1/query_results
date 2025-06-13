@@ -1,3 +1,6 @@
-mgc_rve_context_lcv "testLib" "sram_2_bit_1" "layout" 10000
-mp 4 1.188 0.231 1.258 0.231 1.258 0.258 1.188 0.258
-mgc_rve_zoom 1.173 0.2253 1.273 0.2637 1
+mgc_rve_context_lcv "testLib" "sram_2_bit_1" "layout" 4000
+mgc_rve_highlight_index 0 "M11" "#8080FFFF8080"
+mgc_rve_property "w" 2.7e-08  "l" 2e-08  "nfin" 1  "model" "pmos_sram"
+mgc_rve_layer "P_GATE_sram"
+mr 1.375 0.231 1.395 0.258
+mgc_rve_zoom 1.37075 0.22525 1.39925 0.26375 1

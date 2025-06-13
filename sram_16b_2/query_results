@@ -1,3 +1,2 @@
-mgc_rve_context_lcv "testLib" "sram_16b_2" "layout" 10000
-me 2 5.15 3.9585 5.151 3.9585 5.15 3.971 5.151 3.971
-mgc_rve_zoom 5.1498 3.9559 5.1512 3.9736 1
+mgc_rve_context_lcv "testLib" "sram_16b_2" "layout" 4000
+mgc_rve_zoom 7.582 5.125 7.582 5.125 -1

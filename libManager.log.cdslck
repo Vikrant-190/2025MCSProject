@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      es25MCS027
 HostName                       ee25
-ProcessIdentifier              202549
-ProcessCreationTime_UTC        1749743237
-ProcessCreationTime_Readable   Thu Jun 12 23:47:17 2025 CST
+ProcessIdentifier              101590
+ProcessCreationTime_UTC        1749789494
+ProcessCreationTime_Readable   Fri Jun 13 12:38:14 2025 CST
 AppIdentifier                  /usr/cad/cadence/IC/IC_06.18.250/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/libManager.log
-TimeEditLocked                 Thu Jun 12 23:47:17 2025 CST
+TimeEditLocked                 Fri Jun 13 12:38:14 2025 CST

@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 05/03/2022 19:59 (cpgbld01) $
           : sub-version  IC6.1.8-64b.500.25 
-Started at: 13-Jun-2025  00:20:02
+Started at: 13-Jun-2025  09:45:19
 User Name : es25MCS027
 Host Name : ee25
 Directory : /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-testLib/tap_cell_sram/layout    0        0       0        48     0      0         0      0             0      0     0     0       0       
+testLib/tap_cell_sram/layout    0        0       0        50     0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -37,10 +37,10 @@ BOUNDARY        drawing         100     0         0        1        0        0  
 well            drawing         1       0         0        1        0        0        0             0    0   0   0     0      0      
 Active          drawing         11      0         0        3        0        0        0             0    0   0   0     0      0      
 Nselect         drawing         12      0         0        1        0        0        0             0    0   0   0     0      0      
-M3              drawing         30      0         0        1        0        0        0             0    0   0   0     0      0      
+M3              drawing         30      0         0        2        0        0        0             0    0   0   0     0      0      
 fin             drawing         2       0         0        15       0        0        0             0    0   0   0     0      0      
 LISD            drawing         17      0         0        3        0        0        0             0    0   0   0     0      0      
-V2              drawing         25      0         0        2        0        0        0             0    0   0   0     0      0      
+V2              drawing         25      0         0        3        0        0        0             0    0   0   0     0      0      
 M2              drawing         20      0         0        3        0        0        0             0    0   0   0     0      0      
 Gate            drawing         7       0         0        2        0        0        0             0    0   0   0     0      0      
 GCut            drawing         10      0         0        2        0        0        0             0    0   0   0     0      0      
@@ -53,7 +53,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			48
+	Rectangles:			50
 	Lines:				0
 	Arcs:				0
 	Donuts:				0

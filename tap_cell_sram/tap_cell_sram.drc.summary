@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Fri Jun 13 00:20:04 2025
+Execution Date/Time:       Fri Jun 13 09:45:20 2025
 Calibre Version:           v2019.2_26.18    Tue May 7 10:57:04 PDT 2019
 Rule File Pathname:        /RAID2/COURSE/2025_Spring/es25MCS/es25MCS027/Documents/cadence/memory_project/tap_cell_sram/_drcRules_calibre_asap7.rul_
 Rule File Title:           
@@ -52,10 +52,10 @@ LAYER M5 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M6 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M7 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M2 ........ TOTAL Original Geometry Count = 3  (3)
-LAYER M3 ........ TOTAL Original Geometry Count = 1  (1)
+LAYER M3 ........ TOTAL Original Geometry Count = 2  (2)
 LAYER M8 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER V1 ........ TOTAL Original Geometry Count = 3  (3)
-LAYER V2 ........ TOTAL Original Geometry Count = 2  (2)
+LAYER V2 ........ TOTAL Original Geometry Count = 3  (3)
 LAYER V3 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER V4 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER V5 ........ TOTAL Original Geometry Count = 0  (0)
@@ -111,7 +111,7 @@ RULECHECK ACTIVE.AUX.1 ............... TOTAL Result Count = 0 (0)
 RULECHECK SRAM.ACTIVE.AUX.2 .......... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.AUX.3 ............... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.LUP.1 ............... TOTAL Result Count = 0 (0)
-RULECHECK GCUT.W.1 ................... TOTAL Result Count = 1 (1)
+RULECHECK GCUT.W.1 ................... TOTAL Result Count = 0 (0)
 RULECHECK GCUT.ACTIVE.S.1 ............ TOTAL Result Count = 0 (0)
 RULECHECK GCUT.GATE.EX.1 ............. TOTAL Result Count = 0 (0)
 RULECHECK GCUT.GATE.S.2 .............. TOTAL Result Count = 0 (0)
@@ -405,13 +405,11 @@ RULECHECK V9.AUX.1 ................... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL tap_cell_sram ....... TOTAL Result Count = 1 (1)
-    RULECHECK GCUT.W.1 ... TOTAL Result Count = 1 (1)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 47 (47)
+TOTAL Original Layer Geometries: 49 (49)
 TOTAL DRC RuleChecks Executed:   334
-TOTAL DRC Results Generated:     1 (1)
+TOTAL DRC Results Generated:     0 (0)
