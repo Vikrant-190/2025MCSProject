@@ -27,8 +27,8 @@
 *.lib
 *.log
 *.lvs*
-*.pex*
-*.net*
+#*.pex*
+#*.net*
 
 # HSPICE specific
 *.st0                # HSPICE status files

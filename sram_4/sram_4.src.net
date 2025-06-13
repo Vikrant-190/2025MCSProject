@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: sram_4
+* View Name:     schematic
+* Netlisted on:  Jun 11 22:09:17 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    sram_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sram_4 BL BLN VDD VSS WL
+*.PININFO WL:I BL:B BLN:B VDD:B VSS:B
+MM0 net20 WL BL VSS nmos_sram w=54.0n l=20n nfin=2
+MM3 net19 WL BLN VSS nmos_sram w=54.0n l=20n nfin=2
+MM2 net20 net19 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM1 net19 net20 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM5 net20 net19 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM4 net19 net20 VDD VDD pmos_sram w=27n l=20n nfin=1
+.ENDS
+

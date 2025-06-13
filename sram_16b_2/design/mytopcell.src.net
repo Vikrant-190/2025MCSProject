@@ -1,0 +1,71 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: sram_16b_2
+* View Name:     schematic
+* Netlisted on:  Jun 13 10:04:43 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    sram_2_bit_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sram_2_bit_1 BL BLN VDD VSS WL0 WL1
+*.PININFO WL0:I WL1:I BL:B BLN:B VDD:B VSS:B
+MM9 net36 WL1 BL VSS nmos_sram w=54.0n l=20n nfin=2
+MM8 net35 WL1 BLN VSS nmos_sram w=54.0n l=20n nfin=2
+MM0 net34 WL0 BL VSS nmos_sram w=54.0n l=20n nfin=2
+MM3 net33 WL0 BLN VSS nmos_sram w=54.0n l=20n nfin=2
+MM7 net36 net35 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM6 net35 net36 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM2 net34 net33 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM1 net33 net34 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM11 net36 net35 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM10 net35 net36 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM5 net34 net33 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM4 net33 net34 VDD VDD pmos_sram w=27n l=20n nfin=1
+.ENDS
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    sram_16b_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sram_16b_2 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BL<8> BL<9> 
++ BL<10> BL<11> BL<12> BL<13> BL<14> BL<15> BLN<0> BLN<1> BLN<2> BLN<3> BLN<4> 
++ BLN<5> BLN<6> BLN<7> BLN<8> BLN<9> BLN<10> BLN<11> BLN<12> BLN<13> BLN<14> 
++ BLN<15> VDD VSS WL0 WL1
+*.PININFO WL0:I WL1:I BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B 
+*.PININFO BL<7>:B BL<8>:B BL<9>:B BL<10>:B BL<11>:B BL<12>:B BL<13>:B BL<14>:B 
+*.PININFO BL<15>:B BLN<0>:B BLN<1>:B BLN<2>:B BLN<3>:B BLN<4>:B BLN<5>:B 
+*.PININFO BLN<6>:B BLN<7>:B BLN<8>:B BLN<9>:B BLN<10>:B BLN<11>:B BLN<12>:B 
+*.PININFO BLN<13>:B BLN<14>:B BLN<15>:B VDD:B VSS:B
+XI15 BL<0> BLN<0> VDD VSS WL0 WL1 / sram_2_bit_1
+XI14 BL<1> BLN<1> VDD VSS WL0 WL1 / sram_2_bit_1
+XI13 BL<2> BLN<2> VDD VSS WL0 WL1 / sram_2_bit_1
+XI12 BL<3> BLN<3> VDD VSS WL0 WL1 / sram_2_bit_1
+XI11 BL<4> BLN<4> VDD VSS WL0 WL1 / sram_2_bit_1
+XI10 BL<5> BLN<5> VDD VSS WL0 WL1 / sram_2_bit_1
+XI9 BL<6> BLN<6> VDD VSS WL0 WL1 / sram_2_bit_1
+XI8 BL<7> BLN<7> VDD VSS WL0 WL1 / sram_2_bit_1
+XI7 BL<8> BLN<8> VDD VSS WL0 WL1 / sram_2_bit_1
+XI6 BL<9> BLN<9> VDD VSS WL0 WL1 / sram_2_bit_1
+XI5 BL<10> BLN<10> VDD VSS WL0 WL1 / sram_2_bit_1
+XI4 BL<11> BLN<11> VDD VSS WL0 WL1 / sram_2_bit_1
+XI3 BL<12> BLN<12> VDD VSS WL0 WL1 / sram_2_bit_1
+XI2 BL<13> BLN<13> VDD VSS WL0 WL1 / sram_2_bit_1
+XI1 BL<14> BLN<14> VDD VSS WL0 WL1 / sram_2_bit_1
+XI0 BL<15> BLN<15> VDD VSS WL0 WL1 / sram_2_bit_1
+.ENDS
+

@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: sram_2_bit_1
+* View Name:     schematic
+* Netlisted on:  Jun 13 08:45:03 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    sram_2_bit_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sram_2_bit_1 BL BLN VDD VSS WL0 WL1
+*.PININFO WL0:I WL1:I BL:B BLN:B VDD:B VSS:B
+MM9 net36 WL1 BL VSS nmos_sram w=54.0n l=20n nfin=2
+MM8 net35 WL1 BLN VSS nmos_sram w=54.0n l=20n nfin=2
+MM0 net34 WL0 BL VSS nmos_sram w=54.0n l=20n nfin=2
+MM3 net33 WL0 BLN VSS nmos_sram w=54.0n l=20n nfin=2
+MM7 net36 net35 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM6 net35 net36 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM2 net34 net33 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM1 net33 net34 VSS VSS nmos_sram w=54.0n l=20n nfin=2
+MM11 net36 net35 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM10 net35 net36 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM5 net34 net33 VDD VDD pmos_sram w=27n l=20n nfin=1
+MM4 net33 net34 VDD VDD pmos_sram w=27n l=20n nfin=1
+.ENDS
+
