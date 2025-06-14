@@ -1,0 +1,33 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: senseA_1
+* View Name:     schematic
+* Netlisted on:  Jun 14 07:46:11 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    senseA_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT senseA_1 BL BLN BLN_S BL_S SA_EN VDD VSS
+*.PININFO BL:B BLN:B BLN_S:B BL_S:B SA_EN:B VDD:B VSS:B
+MM2 net3 SA_EN VSS VSS nmos_sram w=27.0n l=20n nfin=1
+MM1 BLN_S BL_S net3 VSS nmos_sram w=27.0n l=20n nfin=1
+MM0 BL_S BLN_S net3 VSS nmos_sram w=27.0n l=20n nfin=1
+MM6 BL_S SA_EN BL VDD pmos_sram w=27n l=20n nfin=1
+MM5 BLN_S SA_EN BLN VDD pmos_sram w=27n l=20n nfin=1
+MM4 BLN_S BL_S VDD VDD pmos_sram w=27n l=20n nfin=1
+MM3 BL_S BLN_S VDD VDD pmos_sram w=27n l=20n nfin=1
+.ENDS
+

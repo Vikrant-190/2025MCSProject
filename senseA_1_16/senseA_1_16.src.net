@@ -1,0 +1,76 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  testLib
+* Top Cell Name: senseA_1_16
+* View Name:     schematic
+* Netlisted on:  Jun 14 08:49:55 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    senseA_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT senseA_1 BL BLN BLN_S BL_S SA_EN VDD VSS
+*.PININFO BL:B BLN:B BLN_S:B BL_S:B SA_EN:B VDD:B VSS:B
+MM2 net3 SA_EN VSS VSS nmos_sram w=27.0n l=20n nfin=1
+MM1 BLN_S BL_S net3 VSS nmos_sram w=27.0n l=20n nfin=1
+MM0 BL_S BLN_S net3 VSS nmos_sram w=27.0n l=20n nfin=1
+MM6 BL_S SA_EN BL VDD pmos_sram w=27n l=20n nfin=1
+MM5 BLN_S SA_EN BLN VDD pmos_sram w=27n l=20n nfin=1
+MM4 BLN_S BL_S VDD VDD pmos_sram w=27n l=20n nfin=1
+MM3 BL_S BLN_S VDD VDD pmos_sram w=27n l=20n nfin=1
+.ENDS
+
+************************************************************************
+* Library Name: testLib
+* Cell Name:    senseA_1_16
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT senseA_1_16 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BL<8> 
++ BL<9> BL<10> BL<11> BL<12> BL<13> BL<14> BL<15> BLN<0> BLN<1> BLN<2> BLN<3> 
++ BLN<4> BLN<5> BLN<6> BLN<7> BLN<8> BLN<9> BLN<10> BLN<11> BLN<12> BLN<13> 
++ BLN<14> BLN<15> BLN_S<0> BLN_S<1> BLN_S<2> BLN_S<3> BLN_S<4> BLN_S<5> 
++ BLN_S<6> BLN_S<7> BLN_S<8> BLN_S<9> BLN_S<10> BLN_S<11> BLN_S<12> BLN_S<13> 
++ BLN_S<14> BLN_S<15> BL_S<0> BL_S<1> BL_S<2> BL_S<3> BL_S<4> BL_S<5> BL_S<6> 
++ BL_S<7> BL_S<8> BL_S<9> BL_S<10> BL_S<11> BL_S<12> BL_S<13> BL_S<14> 
++ BL_S<15> SA_EN VDD VSS
+*.PININFO BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B BL<7>:B 
+*.PININFO BL<8>:B BL<9>:B BL<10>:B BL<11>:B BL<12>:B BL<13>:B BL<14>:B 
+*.PININFO BL<15>:B BLN<0>:B BLN<1>:B BLN<2>:B BLN<3>:B BLN<4>:B BLN<5>:B 
+*.PININFO BLN<6>:B BLN<7>:B BLN<8>:B BLN<9>:B BLN<10>:B BLN<11>:B BLN<12>:B 
+*.PININFO BLN<13>:B BLN<14>:B BLN<15>:B BLN_S<0>:B BLN_S<1>:B BLN_S<2>:B 
+*.PININFO BLN_S<3>:B BLN_S<4>:B BLN_S<5>:B BLN_S<6>:B BLN_S<7>:B BLN_S<8>:B 
+*.PININFO BLN_S<9>:B BLN_S<10>:B BLN_S<11>:B BLN_S<12>:B BLN_S<13>:B 
+*.PININFO BLN_S<14>:B BLN_S<15>:B BL_S<0>:B BL_S<1>:B BL_S<2>:B BL_S<3>:B 
+*.PININFO BL_S<4>:B BL_S<5>:B BL_S<6>:B BL_S<7>:B BL_S<8>:B BL_S<9>:B 
+*.PININFO BL_S<10>:B BL_S<11>:B BL_S<12>:B BL_S<13>:B BL_S<14>:B BL_S<15>:B 
+*.PININFO SA_EN:B VDD:B VSS:B
+XI15 BL<0> BLN<0> BLN_S<0> BL_S<0> SA_EN VDD VSS / senseA_1
+XI14 BL<4> BLN<4> BLN_S<4> BL_S<4> SA_EN VDD VSS / senseA_1
+XI13 BL<8> BLN<8> BLN_S<8> BL_S<8> SA_EN VDD VSS / senseA_1
+XI12 BL<12> BLN<12> BLN_S<12> BL_S<12> SA_EN VDD VSS / senseA_1
+XI11 BL<1> BLN<1> BLN_S<1> BL_S<1> SA_EN VDD VSS / senseA_1
+XI10 BL<5> BLN<5> BLN_S<5> BL_S<5> SA_EN VDD VSS / senseA_1
+XI9 BL<9> BLN<9> BLN_S<9> BL_S<9> SA_EN VDD VSS / senseA_1
+XI8 BL<13> BLN<13> BLN_S<13> BL_S<13> SA_EN VDD VSS / senseA_1
+XI7 BL<2> BLN<2> BLN_S<2> BL_S<2> SA_EN VDD VSS / senseA_1
+XI6 BL<6> BLN<6> BLN_S<6> BL_S<6> SA_EN VDD VSS / senseA_1
+XI5 BL<10> BLN<10> BLN_S<10> BL_S<10> SA_EN VDD VSS / senseA_1
+XI4 BL<14> BLN<14> BLN_S<14> BL_S<14> SA_EN VDD VSS / senseA_1
+XI3 BL<3> BLN<3> BLN_S<3> BL_S<3> SA_EN VDD VSS / senseA_1
+XI2 BL<7> BLN<7> BLN_S<7> BL_S<7> SA_EN VDD VSS / senseA_1
+XI1 BL<11> BLN<11> BLN_S<11> BL_S<11> SA_EN VDD VSS / senseA_1
+XI0 BL<15> BLN<15> BLN_S<15> BL_S<15> SA_EN VDD VSS / senseA_1
+.ENDS
+
